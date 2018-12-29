@@ -13,7 +13,9 @@ All sprites, sound effects and music included in this game are licensed under th
 
 ## Pre-Requisites
 The game's dependencies are only Python 3 and Pygame. To install Pygame, simply enter the following in a terminal:
-```pip install pygame```  
+```
+pip install pygame
+```  
 Depending on your system, you may have to change `pip` to `pip3` to install Pygame for Python 3. Please note that the game is not guranteed to run in Python 2.
 
 ## Playing the Game
