@@ -75,10 +75,11 @@ class GameControl:
         game.
         """
         pygame.display.set_caption(WIN_TITLE)
-        self.display = pygame.display.set_mode(WIN_SIZE)
+        self.display = pygame.display.set_mode(WIN_SIZE, pygame.FULLSCREEN)
         self.sprites_handler = mediahandler.sprites.Spritesheet(LOC_SPRITESHEET)
 
         # Specific to the Game
+        pygame.mouse.set_visible(False)
         environment_sprites = self.initialise_environment_sprites()
         player_sprites = self.initialise_player_sprites()
         monster_sprites = self.initialise_monster_sprites()
@@ -198,6 +199,7 @@ class GameControl:
         pygame.mixer.fadeout(800)
         pygame.mixer.music.fadeout(800)
         sleep(1)
+        pygame.mouse.set_visible(True)
         pygame.mixer.stop()
         pygame.mixer.quit()
         pygame.quit()
