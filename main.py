@@ -7,6 +7,7 @@ Copyright (c) 2018 Jared Daniel Carbonell Recomendable. All rights reserved.
 Licensed under the GNU General Public License (GPL) Version 3.
 """
 
+import sys
 from base.game import *
 import levels.level1 as level1
 import levels.level2 as level2
@@ -32,4 +33,4 @@ if __name__ == "__main__":
         if r == -1:
             break
     game_control.uninitialise_all()
-    exit(0)
+    sys.exit(0)
