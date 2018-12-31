@@ -75,7 +75,10 @@ class GameControl:
         game.
         """
         pygame.display.set_caption(WIN_TITLE)
-        self.display = pygame.display.set_mode(WIN_SIZE, pygame.FULLSCREEN)
+        if WIN_START_FULLSCREEN:
+            self.display = pygame.display.set_mode(WIN_SIZE, pygame.FULLSCREEN)
+        else:
+            self.display = pygame.display.set_mode(WIN_SIZE)
         self.sprites_handler = mediahandler.sprites.Spritesheet(LOC_SPRITESHEET)
 
         # Specific to the Game

@@ -23,6 +23,7 @@ of patience in order to complete."
 WIN_TITLE              = TITLE
 WIN_SIZE               = (512, 512)
 WIN_FRAMERATE          = 60
+WIN_START_FULLSCREEN   = True
 
 # SYSTEM COLOURS
 COL_TRANSPARENT        = (  0,   0,   0,   0)
