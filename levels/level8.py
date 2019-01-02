@@ -1,0 +1,37 @@
+"""
+Level 8 Objects
+Copyright (c) 2018 Jared Daniel Carbonell Recomendable. All rights reserved.
+
+Licensed under the GNU General Public License (GPL) Version 3.
+"""
+
+LEVEL = (
+    "WWWWWWWWWWWWWWWW",
+    "WWWWWWWWSWWWWWWW",
+    "WWWWWWWWFFFFFFFW",
+    "WWWWWWWWFWFWFWFW",
+    "WWWWWWWWFWFWFWFW",
+    "FFFFFFFFFWFWFWFW",
+    "FWWFWWFWFFFFFFFW",
+    "FWWFWWFWWWWWWWFW",
+    "FFFFFFFWWWWWWWFW",
+    "WWWFWWWWFWWWWWFW",
+    "WWWFWWWWFWWWWWFW",
+    "WFFFWWDFFFFFFFFW",
+    "WWWFWWWWWWFWWWFW",
+    "WWWFFFFFFFFFFFFW",
+    "WWWWWWWWWWWWWWWW",
+    "WWWWWWWWWWWWWWWW",
+)
+
+PLAYER_INITIAL_X         = 8
+PLAYER_INITIAL_Y         = 1
+PLAYER_INITIAL_DIRECTION = 1
+
+MONSTERS_HORIZONTAL = (
+    None,
+)
+
+MONSTERS_VERTICAL = (
+    None,
+)

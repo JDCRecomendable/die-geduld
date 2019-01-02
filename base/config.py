@@ -11,7 +11,7 @@ import os
 TITLE                  = "Die Geduld"
 AUTHOR                 = "Jared Daniel Carbonell Recomendable"
 AUTHOR_INITIALS        = "JDCR"
-VERSION                = "1.1"
+VERSION                = "1.2b"
 COPYRIGHT              = "Copyright (c) 2018 Jared Daniel Carbonell \
 Recomendable. All rights reserved."
 YEAR                   = "2018"
