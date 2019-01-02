@@ -14,10 +14,11 @@ import levels.level2 as level2
 import levels.level3 as level3
 import levels.level4 as level4
 import levels.level5 as level5
-import levels.level5 as level6
-import levels.level5 as level7
+import levels.level6 as level6
+import levels.level7 as level7
+import levels.level8 as level8
 
-levels = [level1, level2, level3, level4, level5, level6, level7]
+levels = [level1, level2, level3, level4, level5, level6, level7, level8]
 
 mute_status = SND_IS_MUTE
 

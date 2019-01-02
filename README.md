@@ -1,5 +1,5 @@
-# ﻿DIE GEDULD
-Version 1.2b  
+# ﻿Die Geduld
+Version 1.2  
 Copyright (c) 2018 Jared Daniel Carbonell Recomendable.  
 All rights reserved.
 

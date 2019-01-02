@@ -13,15 +13,15 @@ LEVEL = (
     "WWWWWWWWFWFWFWFW",
     "FFFFFFFFFWFWFWFW",
     "FWWFWWFWFFFFFFFW",
-    "FWWFWWFWWWWWWWFW",
-    "FFFFFFFWWWWWWWFW",
-    "WWWFWWWWFWWWWWFW",
-    "WWWFWWWWFWWWWWFW",
-    "WFFFWWDFFFFFFFFW",
-    "WWWFWWWWWWFWWWFW",
-    "WWWFFFFFFFFFFFFW",
-    "WWWWWWWWWWWWWWWW",
-    "WWWWWWWWWWWWWWWW",
+    "FWWFWWFFFWWFWWWW",
+    "FFFFFFFWWWWFFFFW",
+    "WWFWWWWWFWWWWWFW",
+    "WWFWWWWWFWWWWWFW",
+    "WFFFFWDFFFFFFFFW",
+    "WWFWWWWWWWFWWWFW",
+    "WWFFFFFFFFFFFFFW",
+    "WWWWWWWWWWWWWWFW",
+    "WWWWWWWWWWWWWWFW",
 )
 
 PLAYER_INITIAL_X         = 8
@@ -29,9 +29,21 @@ PLAYER_INITIAL_Y         = 1
 PLAYER_INITIAL_DIRECTION = 1
 
 MONSTERS_HORIZONTAL = (
-    None,
+    (14,  2, 2),
+    ( 8,  6, 3),
+    ( 0,  5, 3),
+    ( 6,  8, 2),
+    ( 1, 11, 3),
 )
 
 MONSTERS_VERTICAL = (
-    None,
+    (10,  2, 1),
+    (12,  6, 0),
+    (14,  2, 1),
+    ( 0,  5, 1),
+    ( 3,  8, 0),
+    ( 6,  5, 1),
+    ( 8,  9, 1),
+    (14, 15, 0),
+    (10, 11, 1),
 )
