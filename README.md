@@ -1,5 +1,5 @@
 # ﻿DIE GEDULD
-Version 1.1  
+Version 1.2b  
 Copyright (c) 2018 Jared Daniel Carbonell Recomendable.  
 All rights reserved.
 
