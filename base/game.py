@@ -535,12 +535,9 @@ class Game:
             self.player.move_horizontally(0)
 
     def player_floor_des_collision(self):
-        # ~ global SND_VOL_MUSIC
         for floor_des in self.environment.floor_des:
             if (self.player.is_colliding_with(floor_des) and
                 not self.is_finished):
-                # ~ SND_VOL_MUSIC /= 4
-                # ~ self.set_music_volume(SND_VOL_MUSIC)
                 self.sfx_finish.play()
                 self.is_finished = True
 
