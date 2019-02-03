@@ -27,7 +27,7 @@ class GameObject:
         the variable to the inserted parameter.
         """
         if flag == None: return self.nametag
-        self.nametag = name
+        self.nametag = flag
 
     def x(self, flag=None):
         """Return the position of the moving object along the x-axis (pixels).
