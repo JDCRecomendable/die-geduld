@@ -8,6 +8,7 @@ Licensed under the GNU General Public License (GPL) Version 3.
 from pygame.rect import Rect
 
 class GameObject:
+    """Base class for defining in-game objects in Die Geduld."""
     def __init__(self, name, x, y, width, height):
         """Initialise the base GameObject, based on a Rectangle object from
         Pygame bearing the boundaries of the initialised GameObject.
@@ -121,6 +122,12 @@ class GameObject:
         return self.bounds.colliderect(game_object.bounds)
 
 class EnvironmentObject(GameObject):
+    """Subclass for defining stationary objects in Die Geduld.
+
+    This class is inherited from the base class GameObject.
+    It expects a single sprite image for drawing the stationary sprite.
+    It adds the ability to draw the object's sprite on the screen.
+    """
     def __init__(self, name, x, y, width, height, sprite_image=None):
         """Initialise the EnvironmentObject, based on the GameObject, and take
         in a single sprite image for displaying the object (by default, None).
@@ -144,6 +151,15 @@ class EnvironmentObject(GameObject):
             surface.blit(self.sprite_image, (self.x(), self.y()))
 
 class MovingObject(GameObject):
+    """Subclass for defining moving objects in Die Geduld.
+
+    This class is inherited from the base class GameObject.
+    It expects a series of sprite images for drawing the moving object on the
+    screen, as well as settings that define the initial speed and direction of
+    the moving object.
+    It adds the ability to draw the object on the screen, as well as the ability
+    to change the transform position of the object.
+    """
     def __init__(self, name, x, y, width, height,
                  default_speed,
                  initial_direction,
@@ -267,7 +283,7 @@ class MovingObject(GameObject):
         self.direction = direction
 
     def _detect_direction(self):
-        # Private Method
+        # "Private" Method
         # Return the true direction of the object based on movement, without
         # setting self.direction itself.
         if self.h_speed == self.v_speed: return self.direction

@@ -208,6 +208,7 @@ class GameControl:
         pygame.quit()
 
 class Game:
+    """Handles each level in the game."""
     def __init__(self, clock, display, sprites, sounds, level, mute_status):
         """Initialise before the running the game.
 
