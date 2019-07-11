@@ -3,8 +3,8 @@ Version 1.2
 Copyright (c) 2018-2019 Jared Daniel Carbonell Recomendable.  
 All rights reserved.
 
-## About
-Die Geduld is patience in German, and the game is named as such because it requires good hand-eye coordination and a good deal of patience in order to complete. This little game is the product of an extra/optional Computing assignment by the Computing lecturers and tutors of Yishun-Innova Junior College.
+## What is this?
+The product of a project assignment by the Computing lecturers/tutors of Yishun Innova Junior College.
 
 ## License
 All code included in this game is licensed under the GNU General Public License (GPL) Version 3, included in the root directory as the file `LICENSE`.
@@ -33,6 +33,3 @@ There are other controls included. Quitting from the game takes roughly a second
 * `Esc` or `Control` + `Q`: Quit from the Game
 
 The controls will be shown everytime the game is launched.
-
-## Special Thanks
-Special thanks to Mr. David Tan and Ms. Foo Fang Fang of Yishun-Innova Junior College (YIJC) for their guidance and support, for without them, creating this game would not have been possible. They had been the lecturers and tutors for CTG 118 and 119 of YIJC in 2018. The author of this game belonged to CTG 118.
