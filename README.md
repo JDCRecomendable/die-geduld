@@ -1,7 +1,6 @@
 # ﻿Die Geduld
 Version 1.2  
 Copyright (c) 2018-2019 Jared Daniel Carbonell Recomendable.  
-All rights reserved.
 
 ## What is this?
 The product of a project assignment by the Computing lecturers/tutors of Yishun Innova Junior College.
