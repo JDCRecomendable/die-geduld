@@ -2,7 +2,7 @@
 
 """
 Main File for Game
-Copyright (c) 2018 Jared Daniel Carbonell Recomendable. All rights reserved.
+Copyright (c) 2018 Jared Daniel Carbonell Recomendable.
 
 Licensed under the GNU General Public License (GPL) Version 3.
 """

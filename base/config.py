@@ -1,6 +1,6 @@
 """
 Configuration for Game
-Copyright (c) 2018 Jared Daniel Carbonell Recomendable. All rights reserved.
+Copyright (c) 2018 Jared Daniel Carbonell Recomendable.
 
 Licensed under the GNU General Public License (GPL) Version 3.
 """
@@ -13,7 +13,7 @@ AUTHOR                 = "Jared Daniel Carbonell Recomendable"
 AUTHOR_INITIALS        = "JDCR"
 VERSION                = "1.2b"
 COPYRIGHT              = "Copyright (c) 2018 Jared Daniel Carbonell \
-Recomendable. All rights reserved."
+Recomendable."
 YEAR                   = "2018"
 DESCRIPTION            = "Die Geduld is patience in German, and the game is \
 named as such because it requires good hand-eye coordination and a good deal \
